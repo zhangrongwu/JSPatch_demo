@@ -13,6 +13,26 @@
 		8AFD8D381C19662B0010BEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD8D361C19662B0010BEA6 /* Main.storyboard */; };
 		8AFD8D3A1C19662B0010BEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD8D391C19662B0010BEA6 /* Assets.xcassets */; };
 		8AFD8D3D1C19662B0010BEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD8D3B1C19662B0010BEA6 /* LaunchScreen.storyboard */; };
+		8AFD8D451C19664C0010BEA6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFD8D441C19664C0010BEA6 /* JavaScriptCore.framework */; };
+		8AFD8D4A1C1967970010BEA6 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D481C1967970010BEA6 /* JPEngine.m */; };
+		8AFD8D4B1C1967970010BEA6 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD8D491C1967970010BEA6 /* JSPatch.js */; };
+		8AFD8D721C196A360010BEA6 /* JPCGBitmapContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D541C196A360010BEA6 /* JPCGBitmapContext.m */; };
+		8AFD8D731C196A360010BEA6 /* JPCGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D561C196A360010BEA6 /* JPCGColor.m */; };
+		8AFD8D741C196A360010BEA6 /* JPCGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D581C196A360010BEA6 /* JPCGContext.m */; };
+		8AFD8D751C196A360010BEA6 /* JPCGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D5A1C196A360010BEA6 /* JPCGGeometry.m */; };
+		8AFD8D761C196A360010BEA6 /* JPCGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D5C1C196A360010BEA6 /* JPCGImage.m */; };
+		8AFD8D771C196A360010BEA6 /* JPCGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D5E1C196A360010BEA6 /* JPCGPath.m */; };
+		8AFD8D781C196A360010BEA6 /* JPCGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D601C196A360010BEA6 /* JPCGTransform.m */; };
+		8AFD8D791C196A360010BEA6 /* JPCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D621C196A360010BEA6 /* JPCoreGraphics.m */; };
+		8AFD8D7A1C196A360010BEA6 /* JPInclude.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D641C196A360010BEA6 /* JPInclude.m */; };
+		8AFD8D7B1C196A360010BEA6 /* JPMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D661C196A360010BEA6 /* JPMemory.m */; };
+		8AFD8D7C1C196A360010BEA6 /* JPStructPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D681C196A360010BEA6 /* JPStructPointer.m */; };
+		8AFD8D7D1C196A360010BEA6 /* JPUIGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D6B1C196A360010BEA6 /* JPUIGeometry.m */; };
+		8AFD8D7E1C196A360010BEA6 /* JPUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D6D1C196A360010BEA6 /* JPUIGraphics.m */; };
+		8AFD8D7F1C196A360010BEA6 /* JPUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D6F1C196A360010BEA6 /* JPUIImage.m */; };
+		8AFD8D801C196A360010BEA6 /* JPUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D711C196A360010BEA6 /* JPUIKit.m */; };
+		8AFD8D821C196A4D0010BEA6 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 8AFD8D811C196A4D0010BEA6 /* index.js */; };
+		8AFD8D871C196EF10010BEA6 /* JPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD8D861C196EF10010BEA6 /* JPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +41,48 @@
 		8AFD8D301C19662B0010BEA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AFD8D311C19662B0010BEA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8AFD8D331C19662B0010BEA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8AFD8D341C19662B0010BEA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AFD8D341C19662B0010BEA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		8AFD8D371C19662B0010BEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AFD8D391C19662B0010BEA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AFD8D3C1C19662B0010BEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AFD8D3E1C19662B0010BEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFD8D441C19664C0010BEA6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		8AFD8D471C1967970010BEA6 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		8AFD8D481C1967970010BEA6 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		8AFD8D491C1967970010BEA6 /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		8AFD8D531C196A360010BEA6 /* JPCGBitmapContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGBitmapContext.h; sourceTree = "<group>"; };
+		8AFD8D541C196A360010BEA6 /* JPCGBitmapContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGBitmapContext.m; sourceTree = "<group>"; };
+		8AFD8D551C196A360010BEA6 /* JPCGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGColor.h; sourceTree = "<group>"; };
+		8AFD8D561C196A360010BEA6 /* JPCGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGColor.m; sourceTree = "<group>"; };
+		8AFD8D571C196A360010BEA6 /* JPCGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGContext.h; sourceTree = "<group>"; };
+		8AFD8D581C196A360010BEA6 /* JPCGContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGContext.m; sourceTree = "<group>"; };
+		8AFD8D591C196A360010BEA6 /* JPCGGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGGeometry.h; sourceTree = "<group>"; };
+		8AFD8D5A1C196A360010BEA6 /* JPCGGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGGeometry.m; sourceTree = "<group>"; };
+		8AFD8D5B1C196A360010BEA6 /* JPCGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGImage.h; sourceTree = "<group>"; };
+		8AFD8D5C1C196A360010BEA6 /* JPCGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGImage.m; sourceTree = "<group>"; };
+		8AFD8D5D1C196A360010BEA6 /* JPCGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGPath.h; sourceTree = "<group>"; };
+		8AFD8D5E1C196A360010BEA6 /* JPCGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGPath.m; sourceTree = "<group>"; };
+		8AFD8D5F1C196A360010BEA6 /* JPCGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGTransform.h; sourceTree = "<group>"; };
+		8AFD8D601C196A360010BEA6 /* JPCGTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGTransform.m; sourceTree = "<group>"; };
+		8AFD8D611C196A360010BEA6 /* JPCoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCoreGraphics.h; sourceTree = "<group>"; };
+		8AFD8D621C196A360010BEA6 /* JPCoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCoreGraphics.m; sourceTree = "<group>"; };
+		8AFD8D631C196A360010BEA6 /* JPInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPInclude.h; sourceTree = "<group>"; };
+		8AFD8D641C196A360010BEA6 /* JPInclude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPInclude.m; sourceTree = "<group>"; };
+		8AFD8D651C196A360010BEA6 /* JPMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMemory.h; sourceTree = "<group>"; };
+		8AFD8D661C196A360010BEA6 /* JPMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMemory.m; sourceTree = "<group>"; };
+		8AFD8D671C196A360010BEA6 /* JPStructPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPStructPointer.h; sourceTree = "<group>"; };
+		8AFD8D681C196A360010BEA6 /* JPStructPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPStructPointer.m; sourceTree = "<group>"; };
+		8AFD8D6A1C196A360010BEA6 /* JPUIGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGeometry.h; sourceTree = "<group>"; };
+		8AFD8D6B1C196A360010BEA6 /* JPUIGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGeometry.m; sourceTree = "<group>"; };
+		8AFD8D6C1C196A360010BEA6 /* JPUIGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGraphics.h; sourceTree = "<group>"; };
+		8AFD8D6D1C196A360010BEA6 /* JPUIGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGraphics.m; sourceTree = "<group>"; };
+		8AFD8D6E1C196A360010BEA6 /* JPUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIImage.h; sourceTree = "<group>"; };
+		8AFD8D6F1C196A360010BEA6 /* JPUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIImage.m; sourceTree = "<group>"; };
+		8AFD8D701C196A360010BEA6 /* JPUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIKit.h; sourceTree = "<group>"; };
+		8AFD8D711C196A360010BEA6 /* JPUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIKit.m; sourceTree = "<group>"; };
+		8AFD8D811C196A4D0010BEA6 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		8AFD8D851C196EF10010BEA6 /* JPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPViewController.h; sourceTree = "<group>"; };
+		8AFD8D861C196EF10010BEA6 /* JPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AFD8D451C19664C0010BEA6 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +100,7 @@
 		8AFD8D211C19662B0010BEA6 = {
 			isa = PBXGroup;
 			children = (
+				8AFD8D441C19664C0010BEA6 /* JavaScriptCore.framework */,
 				8AFD8D2C1C19662B0010BEA6 /* JSPatch_demo */,
 				8AFD8D2B1C19662B0010BEA6 /* Products */,
 			);
@@ -62,10 +121,15 @@
 				8AFD8D311C19662B0010BEA6 /* AppDelegate.m */,
 				8AFD8D331C19662B0010BEA6 /* ViewController.h */,
 				8AFD8D341C19662B0010BEA6 /* ViewController.m */,
+				8AFD8D851C196EF10010BEA6 /* JPViewController.h */,
+				8AFD8D861C196EF10010BEA6 /* JPViewController.m */,
 				8AFD8D361C19662B0010BEA6 /* Main.storyboard */,
 				8AFD8D391C19662B0010BEA6 /* Assets.xcassets */,
 				8AFD8D3B1C19662B0010BEA6 /* LaunchScreen.storyboard */,
 				8AFD8D3E1C19662B0010BEA6 /* Info.plist */,
+				8AFD8D811C196A4D0010BEA6 /* index.js */,
+				8AFD8D511C196A360010BEA6 /* Extensions */,
+				8AFD8D461C1967970010BEA6 /* JSPatch */,
 				8AFD8D2D1C19662B0010BEA6 /* Supporting Files */,
 			);
 			path = JSPatch_demo;
@@ -77,6 +141,69 @@
 				8AFD8D2E1C19662B0010BEA6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AFD8D461C1967970010BEA6 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD8D471C1967970010BEA6 /* JPEngine.h */,
+				8AFD8D481C1967970010BEA6 /* JPEngine.m */,
+				8AFD8D491C1967970010BEA6 /* JSPatch.js */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		8AFD8D511C196A360010BEA6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD8D521C196A360010BEA6 /* CoreGraphics */,
+				8AFD8D631C196A360010BEA6 /* JPInclude.h */,
+				8AFD8D641C196A360010BEA6 /* JPInclude.m */,
+				8AFD8D651C196A360010BEA6 /* JPMemory.h */,
+				8AFD8D661C196A360010BEA6 /* JPMemory.m */,
+				8AFD8D671C196A360010BEA6 /* JPStructPointer.h */,
+				8AFD8D681C196A360010BEA6 /* JPStructPointer.m */,
+				8AFD8D691C196A360010BEA6 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8AFD8D521C196A360010BEA6 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD8D531C196A360010BEA6 /* JPCGBitmapContext.h */,
+				8AFD8D541C196A360010BEA6 /* JPCGBitmapContext.m */,
+				8AFD8D551C196A360010BEA6 /* JPCGColor.h */,
+				8AFD8D561C196A360010BEA6 /* JPCGColor.m */,
+				8AFD8D571C196A360010BEA6 /* JPCGContext.h */,
+				8AFD8D581C196A360010BEA6 /* JPCGContext.m */,
+				8AFD8D591C196A360010BEA6 /* JPCGGeometry.h */,
+				8AFD8D5A1C196A360010BEA6 /* JPCGGeometry.m */,
+				8AFD8D5B1C196A360010BEA6 /* JPCGImage.h */,
+				8AFD8D5C1C196A360010BEA6 /* JPCGImage.m */,
+				8AFD8D5D1C196A360010BEA6 /* JPCGPath.h */,
+				8AFD8D5E1C196A360010BEA6 /* JPCGPath.m */,
+				8AFD8D5F1C196A360010BEA6 /* JPCGTransform.h */,
+				8AFD8D601C196A360010BEA6 /* JPCGTransform.m */,
+				8AFD8D611C196A360010BEA6 /* JPCoreGraphics.h */,
+				8AFD8D621C196A360010BEA6 /* JPCoreGraphics.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		8AFD8D691C196A360010BEA6 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD8D6A1C196A360010BEA6 /* JPUIGeometry.h */,
+				8AFD8D6B1C196A360010BEA6 /* JPUIGeometry.m */,
+				8AFD8D6C1C196A360010BEA6 /* JPUIGraphics.h */,
+				8AFD8D6D1C196A360010BEA6 /* JPUIGraphics.m */,
+				8AFD8D6E1C196A360010BEA6 /* JPUIImage.h */,
+				8AFD8D6F1C196A360010BEA6 /* JPUIImage.m */,
+				8AFD8D701C196A360010BEA6 /* JPUIKit.h */,
+				8AFD8D711C196A360010BEA6 /* JPUIKit.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +265,8 @@
 			files = (
 				8AFD8D3D1C19662B0010BEA6 /* LaunchScreen.storyboard in Resources */,
 				8AFD8D3A1C19662B0010BEA6 /* Assets.xcassets in Resources */,
+				8AFD8D4B1C1967970010BEA6 /* JSPatch.js in Resources */,
+				8AFD8D821C196A4D0010BEA6 /* index.js in Resources */,
 				8AFD8D381C19662B0010BEA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +279,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AFD8D351C19662B0010BEA6 /* ViewController.m in Sources */,
+				8AFD8D7A1C196A360010BEA6 /* JPInclude.m in Sources */,
+				8AFD8D751C196A360010BEA6 /* JPCGGeometry.m in Sources */,
+				8AFD8D4A1C1967970010BEA6 /* JPEngine.m in Sources */,
+				8AFD8D791C196A360010BEA6 /* JPCoreGraphics.m in Sources */,
+				8AFD8D741C196A360010BEA6 /* JPCGContext.m in Sources */,
+				8AFD8D871C196EF10010BEA6 /* JPViewController.m in Sources */,
+				8AFD8D7B1C196A360010BEA6 /* JPMemory.m in Sources */,
 				8AFD8D321C19662B0010BEA6 /* AppDelegate.m in Sources */,
+				8AFD8D7C1C196A360010BEA6 /* JPStructPointer.m in Sources */,
+				8AFD8D761C196A360010BEA6 /* JPCGImage.m in Sources */,
+				8AFD8D7E1C196A360010BEA6 /* JPUIGraphics.m in Sources */,
+				8AFD8D771C196A360010BEA6 /* JPCGPath.m in Sources */,
+				8AFD8D781C196A360010BEA6 /* JPCGTransform.m in Sources */,
+				8AFD8D7F1C196A360010BEA6 /* JPUIImage.m in Sources */,
 				8AFD8D2F1C19662B0010BEA6 /* main.m in Sources */,
+				8AFD8D7D1C196A360010BEA6 /* JPUIGeometry.m in Sources */,
+				8AFD8D801C196A360010BEA6 /* JPUIKit.m in Sources */,
+				8AFD8D721C196A360010BEA6 /* JPCGBitmapContext.m in Sources */,
+				8AFD8D731C196A360010BEA6 /* JPCGColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSPatch_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhang.rongwu.JSPatch-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSPatch_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhang.rongwu.JSPatch-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +446,7 @@
 				8AFD8D431C19662B0010BEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

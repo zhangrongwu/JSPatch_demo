@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "JPEngine.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [JPEngine startEngine];
+    NSString *sourcePatch = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"js"];
+    NSString *script = [NSString stringWithContentsOfFile:sourcePatch encoding:NSUTF8StringEncoding error:nil];
+    [JPEngine evaluateScript:script];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    ViewController *rootViewController = [[ViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
